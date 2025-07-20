@@ -1,16 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './Dashboard.css';
 
+
+const clientData = [
+  { id: "c1", name: "Innovate Corp", contact: "contact@innovate.com", role: "Tech Partner" },
+  { id: "c2", name: "Quantum Solutions", contact: "hello@quantum.com", role: "Financial Advisor" }
+];
+
+const employeeData = [
+  { id: "e1", name: "Alice Johnson", contact: "alice.j@securelytix.com", role: "Lead Developer" },
+  { id: "e2", name: "Bob Williams", contact: "bob.w@securelytix.com", role: "Project Manager" }
+];
+
+
 const Dashboard = () => {
-  const [clients, setClients] = useState([]);
-  const [employees, setEmployees] = useState([]);
+
+  const [clients] = useState(clientData);
+  const [employees] = useState(employeeData);
   const [selectedItem, setSelectedItem] = useState(null);
 
-  useEffect(() => {
-    fetch('http://localhost:3001/clients').then(res => res.json()).then(data => setClients(data));
-    fetch('http://localhost:3001/employees').then(res => res.json()).then(data => setEmployees(data));
-  }, []);
-
+  
+  
   const handleSelection = (type, id) => {
     if (!id) { setSelectedItem(null); return; }
     const list = type === 'client' ? clients : employees;
