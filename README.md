@@ -6,7 +6,7 @@ This project is a submission for the Full Stack Developer role at Securelytix. I
 
 ### ## Live Demo
 
-- Frontend (Vercel/Netlify):  https://securelytix-ass.vercel.app/
+- Frontend (Vercel):  https://securelytix-ass.vercel.app/
 
 > **Note on the Deployed Version:** The live demo hosted on Vercel uses static data embedded directly in the dashboard component. The local setup instructions below use a `json-server` mock API to simulate a backend during development.
 
@@ -18,7 +18,7 @@ To run this project on your own machine, please follow these steps:
 
 **1. Clone the repository:**
 ```bash
-git clone <YOUR_REPO_URL>
+git clone https://github.com/lakshya1112/securelytix-ass.git
 cd securelytix-assignment
 ```
 
