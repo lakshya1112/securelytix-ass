@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@example.com",
+      "password": "password123"
+    }
+  ],
+  "clients": [
+    { "id": "c1", "name": "Innovate Corp", "contact": "contact@innovate.com", "role": "Tech Partner" },
+    { "id": "c2", "name": "Quantum Solutions", "contact": "hello@quantum.com", "role": "Financial Advisor" }
+  ],
+  "employees": [
+    { "id": "e1", "name": "Alice Johnson", "contact": "alice.j@securelytix.com", "role": "Lead Developer" },
+    { "id": "e2", "name": "Bob Williams", "contact": "bob.w@securelytix.com", "role": "Project Manager" }
+  ]
+}
