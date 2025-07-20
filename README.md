@@ -8,6 +8,8 @@ This project is a submission for the Full Stack Developer role at Securelytix. I
 
 - Frontend (Vercel/Netlify):  https://securelytix-ass.vercel.app/
 
+> **Note on the Deployed Version:** The live demo hosted on Vercel uses static data embedded directly in the dashboard component. The local setup instructions below use a `json-server` mock API to simulate a backend during development.
+
 ---
 
 ### ##  Setup and Running Locally
