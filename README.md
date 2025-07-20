@@ -4,7 +4,7 @@ This project is a submission for the Full Stack Developer role at Securelytix. I
 
 ---
 
-### ## Live Demo
+###  Live Demo
 
 - Frontend (Vercel):  https://securelytix-ass.vercel.app/
 
@@ -12,7 +12,7 @@ This project is a submission for the Full Stack Developer role at Securelytix. I
 
 ---
 
-### ##  Setup and Running Locally
+###  Setup and Running Locally
 
 To run this project on your own machine, please follow these steps:
 
@@ -42,7 +42,7 @@ The application will be available at `http://localhost:5173`.
 
 ---
 
-### ## Features
+###  Features
 
 - Responsive login page for all screen sizes.
 - Email and password validation.
