@@ -19,7 +19,7 @@ To run this project on your own machine, please follow these steps:
 **1. Clone the repository:**
 ```bash
 git clone https://github.com/lakshya1112/securelytix-ass.git
-cd securelytix-assignment
+cd securelytix-ass
 ```
 
 **2. Install dependencies:**
