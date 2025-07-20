@@ -1,17 +1,50 @@
-<<<<<<< HEAD
-# securelytix-ass
-Assignment 1 and 2 given by securelytix
-=======
-# React + Vite
+# Securelytix Placement Drive Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a submission for the Full Stack Developer role at Securelytix. It includes a responsive login page and a dashboard that fetches and displays data.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ## Live Demo
 
-## Expanding the ESLint configuration
+- Frontend (Vercel/Netlify):  https://securelytix-ass.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 4472d74 (Completed Securelytix assignment)
+---
+
+### ##  Setup and Running Locally
+
+To run this project on your own machine, please follow these steps:
+
+**1. Clone the repository:**
+```bash
+git clone <YOUR_REPO_URL>
+cd securelytix-assignment
+```
+
+**2. Install dependencies:**
+```bash
+npm install
+```
+
+**3. Run the Backend Server:**
+Open a terminal and run the following command to start the mock API server.
+```bash
+npx json-server --watch db.json --port 3001
+```
+
+**4. Run the Frontend Application:**
+Open a **second terminal** and run the following command to start the React app.
+```bash
+npm run dev
+```
+The application will be available at `http://localhost:5173`.
+
+---
+
+### ## Features
+
+- Responsive login page for all screen sizes.
+- Email and password validation.
+- "Show/Hide Password" and "Remember Me" bonus features.
+- Redirection to a dashboard upon successful login.
+- Dashboard with dropdowns for "Clients" and "Employees" populated from a mock API.
+- Details of the selected item are displayed dynamically.
